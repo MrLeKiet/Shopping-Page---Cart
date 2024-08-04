@@ -1,0 +1,32 @@
+.card-holder {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  max-height: fit-content;
+}
+
+.product-image {
+  width: 100%;
+}
+
+button {
+  background-color: #aded41;
+  color: #141414;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h2, h3 {
+  color: #3e422f;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
